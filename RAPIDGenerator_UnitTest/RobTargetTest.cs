@@ -27,7 +27,7 @@ namespace RAPIDGenerator_UnitTest
             Assert.AreEqual(expt_orient_q2, robTarget.orient.q2);
             Assert.AreEqual(expt_orient_q3, robTarget.orient.q3);
             Assert.AreEqual(expt_orient_q4, robTarget.orient.q4);
-
+            Assert.IsInstanceOfType(robTarget, typeof(RobTarget));
         }
     }
 }

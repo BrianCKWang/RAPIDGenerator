@@ -52,7 +52,7 @@ namespace RAPIDGenerator
 
                 foreach (RobTarget varb in robTargetList)
                 {
-                    file.WriteLine("        MoveL[[" + txb_refPoint.Text + ".trans.x + (" + varb[0] + "), " + txb_refPoint.Text + ".trans.y + (" + varb[1] + "), " + txb_refPoint.Text + ".trans.z + (" + varb[2] + ")],ori* OrientZyx(" + varb[3] + ", " + varb[4] + ", " + varb[5] + "),conf,ej],V" + txb_V.Text + ",Z" + txb_Z.Text + "," + txb_toolWobj.Text + ";");
+                    //file.WriteLine("        MoveL[[" + txb_refPoint.Text + ".trans.x + (" + varb[0] + "), " + txb_refPoint.Text + ".trans.y + (" + varb[1] + "), " + txb_refPoint.Text + ".trans.z + (" + varb[2] + ")],ori* OrientZyx(" + varb[3] + ", " + varb[4] + ", " + varb[5] + "),conf,ej],V" + txb_V.Text + ",Z" + txb_Z.Text + "," + txb_toolWobj.Text + ";");
                 }
 
                 file.WriteLine("        MoveL p2018_pHomeReadyPosition, v200, z1, tIcy;");
