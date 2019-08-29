@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator", "RAPIDGenerator\RAPIDGenerator.csproj", "{A08C22B9-022A-4031-B32B-467D62FA08C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator_UnitTest", "RAPIDGenerator_UnitTest\RAPIDGenerator_UnitTest.csproj", "{F8822AC3-55E1-4616-A393-64775C1CB4CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08C22B9-022A-4031-B32B-467D62FA08C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08C22B9-022A-4031-B32B-467D62FA08C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08C22B9-022A-4031-B32B-467D62FA08C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08C22B9-022A-4031-B32B-467D62FA08C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8822AC3-55E1-4616-A393-64775C1CB4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8822AC3-55E1-4616-A393-64775C1CB4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8822AC3-55E1-4616-A393-64775C1CB4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8822AC3-55E1-4616-A393-64775C1CB4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08754CDF-7674-4FA4-BBA8-C8E1A1AED9DF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\RAPIDGenerator_UnitTest.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\RAPIDGenerator_UnitTest.pdb
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\RAPIDGenerator.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\RAPIDGenerator.pdb
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.csprojAssemblyReference.cache
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.csproj.CopyComplete
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.pdb
