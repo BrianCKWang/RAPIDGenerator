@@ -43,6 +43,10 @@
   <ItemGroup>
     <Compile Include="IRAPIDable.cs" />
     <Compile Include="MoveInstruction.cs" />
+    <Compile Include="RAPID Data Types\Confdata.cs" />
+    <Compile Include="RAPID Data Types\Extjoint.cs" />
+    <Compile Include="RAPID Data Types\Orient.cs" />
+    <Compile Include="RAPID Data Types\Pos.cs" />
     <Compile Include="RAPID Data Types\stoppointdata.cs" />
     <Compile Include="RAPIDGeneratorServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
