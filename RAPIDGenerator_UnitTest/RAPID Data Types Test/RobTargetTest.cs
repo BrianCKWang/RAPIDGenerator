@@ -8,7 +8,7 @@ namespace RAPIDGenerator_UnitTest
     public class RobTargetTest
     {
         [TestMethod]
-        public void TestRobotTargetConstructor()
+        public void TestRobtargetConstructor()
         {
             RobTarget robTarget = new RobTarget("Target_11", 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0);
 

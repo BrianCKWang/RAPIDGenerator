@@ -49,8 +49,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RobTargetTest.cs" />
+    <Compile Include="RAPID Data Types Test\RobTargetTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RAPID Data Types Test\PosTest.cs" />
+    <Compile Include="RAPID Data Types Test\OrientTest.cs" />
+    <Compile Include="RAPID Data Types Test\ConfdataTest.cs" />
+    <Compile Include="RAPID Data Types Test\ExtjointTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
