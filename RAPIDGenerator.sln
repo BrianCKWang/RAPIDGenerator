@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator", "RAPIDGene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator_UnitTest", "RAPIDGenerator_UnitTest\RAPIDGenerator_UnitTest.csproj", "{F8822AC3-55E1-4616-A393-64775C1CB4CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGeneratorUI", "RAPIDGeneratorUI\RAPIDGeneratorUI.csproj", "{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F8822AC3-55E1-4616-A393-64775C1CB4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8822AC3-55E1-4616-A393-64775C1CB4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8822AC3-55E1-4616-A393-64775C1CB4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

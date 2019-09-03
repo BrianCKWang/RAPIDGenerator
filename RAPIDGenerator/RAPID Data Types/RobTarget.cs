@@ -30,6 +30,22 @@ namespace RAPIDGenerator.RAPID_Data_Types
             confdata = new Confdata(0, 0, 0, 0);
             extjoint = new Extjoint(9E+09, 9E+09, 9E+09, 9E+09, 0);
         }
+        public RobTarget(string name, Pos pos, Orient orient)
+        {
+            Name = name;
+            this.pos = pos;
+            this.orient = orient;
+            confdata = new Confdata(0, 0, 0, 0);
+            extjoint = new Extjoint(9E+09, 9E+09, 9E+09, 9E+09, 0);
+        }
+        public RobTarget(string name, Pos pos, Orient orient, Confdata confdata)
+        {
+            Name = name;
+            this.pos = pos;
+            this.orient = orient;
+            this.confdata = confdata;
+            extjoint = new Extjoint(9E+09, 9E+09, 9E+09, 9E+09, 0);
+        }
         public RobTarget(string name, double x, double y, double z, double q1, double q2, double q3, double q4, double cf1, double cf4, double cf6, double cfx )
         {
             Name = name;

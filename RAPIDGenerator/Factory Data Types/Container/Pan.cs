@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RAPIDGenerator.RAPID_Data_Types;
 
-namespace RAPIDGenerator
+namespace RAPIDGenerator.Factory_Data_Types.Container
 {
-    interface IRAPIDable
+    class Pan : Container
     {
-        List<RobTarget> GetPath();
 
     }
 }
