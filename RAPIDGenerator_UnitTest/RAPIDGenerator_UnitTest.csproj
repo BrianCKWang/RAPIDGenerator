@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RAPIDGenerator\RAPIDGenerator.csproj">
+    <ProjectReference Include="..\RAPIDGenerator\RAPIDGenerator_Engine.csproj">
       <Project>{a08c22b9-022a-4031-b32b-467d62fa08c5}</Project>
-      <Name>RAPIDGenerator</Name>
+      <Name>RAPIDGenerator_Engine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

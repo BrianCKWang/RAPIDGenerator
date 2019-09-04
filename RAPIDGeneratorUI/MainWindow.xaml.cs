@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using RAPIDGenerator.ViewModel;
 
 namespace RAPIDGeneratorUI
 {
@@ -20,9 +21,13 @@ namespace RAPIDGeneratorUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        public RAPIDGeneratorServerViewModel RAPIDGeneratorServerViewModel;
         public MainWindow()
         {
             InitializeComponent();
+
+            RAPIDGeneratorServerViewModel = new RAPIDGeneratorServerViewModel();
+            RAPIDGeneratorServerViewModel.GenerateRAPID();
         }
     }
 }

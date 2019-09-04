@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator", "RAPIDGenerator\RAPIDGenerator.csproj", "{A08C22B9-022A-4031-B32B-467D62FA08C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator_Engine", "RAPIDGenerator\RAPIDGenerator_Engine.csproj", "{A08C22B9-022A-4031-B32B-467D62FA08C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator_UnitTest", "RAPIDGenerator_UnitTest\RAPIDGenerator_UnitTest.csproj", "{F8822AC3-55E1-4616-A393-64775C1CB4CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGeneratorUI", "RAPIDGeneratorUI\RAPIDGeneratorUI.csproj", "{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator_UI", "RAPIDGeneratorUI\RAPIDGenerator_UI.csproj", "{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

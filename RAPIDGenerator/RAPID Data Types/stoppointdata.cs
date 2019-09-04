@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RAPIDGenerator.RAPID_Data_Types
 {
-    class stoppointdata
+    class Stoppointdata
     {
 
     }

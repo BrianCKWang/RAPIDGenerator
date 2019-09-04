@@ -11,5 +11,12 @@ namespace RAPIDGenerator.Factory_Data_Types.Product
         public double length;
         public double width;
         public double height;
+
+        public Product()
+        {
+            length = 0;
+            width = 0;
+            height = 0;
+        }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\bin\Debug\RAPIDGenerator.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\bin\Debug\RAPIDGenerator.pdb
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator_Engine.csproj.CoreCompileInputs.cache
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator.pdb
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator_Engine.csprojAssemblyReference.cache

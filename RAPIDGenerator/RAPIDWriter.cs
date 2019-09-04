@@ -13,55 +13,95 @@ namespace RAPIDGenerator
         public string FilePath; //"E:\\Brian\\Projects\\Project 11 - Cake Sculptor Software Upgrade\\TestModule_CylindricalMovement.mod"
         public string FileName; //TestModule_CylindricalMovement.mod
         public string FullPath;
-        List<RobTarget> robTargetList;
+        List<RobTarget> RobTargetList;
 
-        public RAPIDWriter(List<RobTarget> RobTargetList)
+        public RAPIDWriter(List<RobTarget> robTargetList)
         {
-            robTargetList = RobTargetList;
+            FullPath = @"E:\Brian\ABI\RAPIDGenerator";
+            this.RobTargetList = robTargetList;
         }
 
-        private void WriteToFile()
+        public RAPIDWriter(string fullPath, List<RobTarget> robTargetList)
+        {
+            this.FullPath = fullPath;
+            this.RobTargetList = robTargetList;
+        }
+
+        public RAPIDWriter(string filePath, string fileName, List<RobTarget> robTargetList)
+        {
+            FilePath = filePath;
+            FileName = fileName;
+            RobTargetList = robTargetList;
+        }
+
+        public void writeToFile()
         {
             var systemPath = System.Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
-            var completePath = System.IO.Path.Combine(systemPath, "files");
+            var completePath = Path.Combine(systemPath, "files");
 
-            //E:\Brian\Projects\Project 11 - Cake Sculptor Software Upgrade
-            bool fileExist = File.Exists(@FullPath);
+            //string PatternSaveName = "Pattern_Nesting.txt";
+            bool fileExist = File.Exists(@FilePath + @"\" + FileName);
+
             if (fileExist)
             {
-                File.Delete(FullPath);
+                File.Delete(@FilePath + @"\" + FileName);
             }
-            using (StreamWriter file = new StreamWriter(@FullPath, true))
+            using (StreamWriter file = new StreamWriter(@FilePath + @"\" + FileName, true))
             {
 
-                file.WriteLine("    PROC OrientZYXTester_AutoGen()");
-                file.WriteLine("        ActUnit CNV1;");
-                file.WriteLine("        ConfL\\off;");
-                file.WriteLine("        DropWObj wobjcnv1;");
-                file.WriteLine("        TempRemoveTempCakeWZ;");
-                file.WriteLine("        WaitTime 0.1;");
-                file.WriteLine("        PulseDO c1RemAllPObj;");
-                file.WriteLine("        WaitTime 0.1;");
-                file.WriteLine("        MoveL p2018_pHomeReadyPosition, v200, z1, tIcy;");
-                file.WriteLine("        SetDO do_Board10_0_CNVForward,1;");
-                file.WriteLine("        WaitWobj wobjcnv1\\RelDist:= 1700;");
-                file.WriteLine("        !Distance from stop to first tape mark +length of cake and one edge");
-                file.WriteLine("        SetDO do_Board10_0_CNVForward,0;");
-                file.WriteLine("        WaitTime 1;");
-                file.WriteLine("        CurPos:= CRobT(\\Tool:= tIcy);");
+                file.WriteLine("MODULE Nesting");
 
-                foreach (RobTarget varb in robTargetList)
+                //foreach (RobTarget varb in RobTargetList)
+                //{
+                //    //file.WriteLine("CONST robtarget " + varb.Name + "_" + varb. + " := [[" + varb.pos.x + "," + varb.pos.y + "," + varb.pos.z + "]," + varb.Ori + "," + varb.Conf + "," + varb.Ej + "];");
+                //    file.WriteLine("CONST robtarget " + varb.Name + "_" + " := [[" + varb.pos.x + "," + varb.pos.y + "," + varb.pos.z + "]," + "[" + varb.orient.q1 + ", " + varb.orient.q2 + ", " + varb.orient.q3 + ", " + varb.orient.q4 + "]" + "];");
+                //}
+
+                if(RobTargetList.Count > 0)
                 {
-                    //file.WriteLine("        MoveL[[" + txb_refPoint.Text + ".trans.x + (" + varb[0] + "), " + txb_refPoint.Text + ".trans.y + (" + varb[1] + "), " + txb_refPoint.Text + ".trans.z + (" + varb[2] + ")],ori* OrientZyx(" + varb[3] + ", " + varb[4] + ", " + varb[5] + "),conf,ej],V" + txb_V.Text + ",Z" + txb_Z.Text + "," + txb_toolWobj.Text + ";");
+                    for (int i = 0; i < RobTargetList.Count; ++i)
+                    {
+                        //file.WriteLine("CONST robtarget " + varb.Name + "_" + varb. + " := [[" + varb.pos.x + "," + varb.pos.y + "," + varb.pos.z + "]," + varb.Ori + "," + varb.Conf + "," + varb.Ej + "];");
+                        file.WriteLine("CONST robtarget " + RobTargetList[i].Name + "_" + ((i + 1) * 10).ToString() + " := [[" + RobTargetList[i].pos.x + "," + RobTargetList[i].pos.y + "," + RobTargetList[i].pos.z + "]," + "[" + RobTargetList[i].orient.q1 + ", " + RobTargetList[i].orient.q2 + ", " + RobTargetList[i].orient.q3 + ", " + RobTargetList[i].orient.q4 + "]" + "];");
+                    }
                 }
+                
 
-                file.WriteLine("        MoveL p2018_pHomeReadyPosition, v200, z1, tIcy;");
-                file.WriteLine("        WaitRob\\InPos;");
-                file.WriteLine("        stop;");
-                file.WriteLine("    ENDPROC");
+                file.WriteLine("PROC NestedShape0()");
+                file.WriteLine("var speeddata vCutSpeed;");
+                file.WriteLine("vCutSpeed:= GenerateSpeedData(30);");
+
+                //foreach (MoveInstruction varb in _moveInstructionsFullList)
+                //{
+                //    if (varb.MoveType == "MoveL")
+                //    {
+                //        MoveL NestedShape_robtarget413,vCutSpeed,z1,tWaterJet\Wobj:=wobjCake;
+                //        file.WriteLine(varb.MoveType + " " + varb.Robtarget + "," + varb.CutSpeed + "," + varb.Zone + "," + varb.Tool + ";");
+                //    }
+                //    else if (varb.MoveType == "TriggL")
+                //    {
+                //        TriggL NestedShape_robtarget414,vCutSpeed,WaterOff,z0,tWaterJet\Wobj:=wobjCake;
+                //        file.WriteLine(varb.MoveType + " " + varb.Robtarget + "," + varb.CutSpeed + "," + varb.Trigger + "," + varb.Zone + "," + varb.Tool + ";");
+                //        file.WriteLine("WaitTime 1;");
+                //    }
+                //    else if (varb.MoveType == "MoveC")
+                //    {
+                //        TriggL NestedShape_robtarget414,vCutSpeed,WaterOff,z0,tWaterJet\Wobj:=wobjCake;
+                //        file.WriteLine(varb.MoveType + " " + varb.Robtarget + "," + varb.Robtarget2 + "," + varb.CutSpeed + "," + varb.Zone + "," + varb.Tool + ";");
+                //    }
+                //}
+
+                file.WriteLine("EndNestedShape;");
+                file.WriteLine("aeKWJ_D_ProgramProgress:= 0;");
+                file.WriteLine("SetAO vo_ProgramProgress, (aeKWJ_D_ProgramProgress * 100);");
+                file.WriteLine("ENDPROC");
+                file.WriteLine("PROC NestingArray()");
+                file.WriteLine("NestedShape0;");
+                file.WriteLine("ENDPROC");
+                file.WriteLine("ENDMODULE");
             }
 
-            //Console.WriteLine(completePath);
+            Console.WriteLine(completePath);
         }
     }
 

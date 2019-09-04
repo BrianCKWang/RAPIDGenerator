@@ -10,5 +10,11 @@ namespace RAPIDGenerator.Factory_Data_Types.Container
     {
         public double length;
         public double width;
+
+        public Container()
+        {
+            length = 0;
+            width = 0;
+        }
     }
 }

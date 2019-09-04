@@ -95,9 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RAPIDGenerator\RAPIDGenerator.csproj">
+    <ProjectReference Include="..\RAPIDGenerator\RAPIDGenerator_Engine.csproj">
       <Project>{a08c22b9-022a-4031-b32b-467d62fa08c5}</Project>
-      <Name>RAPIDGenerator</Name>
+      <Name>RAPIDGenerator_Engine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
