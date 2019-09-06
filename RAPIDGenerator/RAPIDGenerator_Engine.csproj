@@ -45,11 +45,13 @@
     <Compile Include="Factory Data Types\Container\Pan.cs" />
     <Compile Include="Factory Data Types\Product\Product Base\Product.cs" />
     <Compile Include="Factory Data Types\Product\BreadStick.cs" />
-    <Compile Include="IRAPIDPath.cs" />
-    <Compile Include="Path Patterns\J190022\r3295_r7382_r3191_Settings.cs" />
+    <Compile Include="Interface\IRAPIDInstruction.cs" />
+    <Compile Include="Interface\IRAPIDPath.cs" />
+    <Compile Include="RAPID Data Types\Inpos.cs" />
     <Compile Include="RAPID Data Types\Speeddata.cs" />
     <Compile Include="RAPID Data Types\Speeddata_Predefined.cs" />
-    <Compile Include="RAPID Instructions\Move Instructions\Move Base\Move.cs" />
+    <Compile Include="RAPID Instructions\Instruction Base\InstructionBase.cs" />
+    <Compile Include="RAPID Instructions\Move Instructions\Move Base\MoveBase.cs" />
     <Compile Include="RAPID Instructions\Move Instructions\MoveJ.cs" />
     <Compile Include="RAPID Instructions\Move Instructions\MoveC.cs" />
     <Compile Include="RAPID Instructions\Move Instructions\MoveL.cs" />

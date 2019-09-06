@@ -7,7 +7,7 @@ using RAPIDGenerator.RAPID_Data_Types;
 
 namespace RAPIDGenerator.RAPID_Instructions.Move_Instructions
 {
-    class MoveJ : Move
+    class MoveJ : MoveBase
     {
         public MoveJ(bool isConc, RobTarget robTarget, bool hasMultiMoveID, int iD, int speed, bool hasV, int v, bool hasT, int t, int zone, bool hasZ, int z, bool hasInpos, string inpos, string tool, bool hasWobj, string wobj, bool hasTload, string tload)
         {

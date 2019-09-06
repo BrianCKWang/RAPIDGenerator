@@ -61,7 +61,6 @@ namespace RAPIDGenerator
                 {
                     for (int i = 0; i < RobTargetList.Count; ++i)
                     {
-                        //file.WriteLine("CONST robtarget " + varb.Name + "_" + varb. + " := [[" + varb.pos.x + "," + varb.pos.y + "," + varb.pos.z + "]," + varb.Ori + "," + varb.Conf + "," + varb.Ej + "];");
                         file.WriteLine("CONST robtarget " + RobTargetList[i].Name + "_" + ((i + 1) * 10).ToString() + " := [[" + RobTargetList[i].pos.x + "," + RobTargetList[i].pos.y + "," + RobTargetList[i].pos.z + "]," + "[" + RobTargetList[i].orient.q1 + ", " + RobTargetList[i].orient.q2 + ", " + RobTargetList[i].orient.q3 + ", " + RobTargetList[i].orient.q4 + "]" + "];");
                     }
                 }

@@ -7,7 +7,7 @@ using RAPIDGenerator.RAPID_Data_Types;
 
 namespace RAPIDGenerator.RAPID_Instructions.Move_Instructions
 {
-    class MoveC : Move
+    class MoveC : MoveBase, IRAPIDInstruction
     {
         public RobTarget CirPoint;
         public bool hasCorr;
@@ -65,6 +65,11 @@ namespace RAPIDGenerator.RAPID_Instructions.Move_Instructions
         {
 
             return "";
+        }
+
+        public string GenerateInstructionString()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -7,7 +7,7 @@ using RAPIDGenerator.RAPID_Data_Types;
 
 namespace RAPIDGenerator.RAPID_Instructions.Move_Instructions
 {
-    class Move
+    class MoveBase
     {
         public bool isConc;             //['\' Conc ', ' ]
 
