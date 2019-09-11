@@ -47,7 +47,7 @@
     <Compile Include="Factory Data Types\Product\BreadStick.cs" />
     <Compile Include="Interface\IRAPIDReader.cs" />
     <Compile Include="Data Types\RAPIDCode.cs" />
-    <Compile Include="Path Patterns\GenerationTemplate\SinglePath.cs" />
+    <Compile Include="Path Patterns\GenerationTypes\SinglePath.cs" />
     <Compile Include="Path Patterns\J190022\r3295_r7382_r3191.cs" />
     <Compile Include="RAPIDGeneratorServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

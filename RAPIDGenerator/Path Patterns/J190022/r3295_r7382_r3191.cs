@@ -43,7 +43,7 @@ namespace ABI.Robotics.RAPIDGenerator_Engine.Path_Patterns.J190022
         private r3295_r7382_r3191_Settings settings;
         private BreadStick BreadStick;
         private List<RAPIDCode> RAPIDCode;
-        private List<RobTarget> RobTargetsList;
+        
 
         public r3295_r7382_r3191(r3295_r7382_r3191_Settings settings)
         {
@@ -62,6 +62,9 @@ namespace ABI.Robotics.RAPIDGenerator_Engine.Path_Patterns.J190022
         private List<RAPIDCode> GeneratePath()
         {
             List<RAPIDCode> tempList = new List<RAPIDCode>();
+            List<RobTarget> robTargets = new List<RobTarget>();
+
+
 
             #region RobTarget Example
             /*
