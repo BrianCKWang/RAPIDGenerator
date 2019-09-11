@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ABB_RAPID_Library\ABB_RAPID_Library.csproj">
+      <Project>{141b66a9-e3c7-4fb2-8027-607fb682f5dc}</Project>
+      <Name>ABB_RAPID_Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RAPIDGenerator\RAPIDGenerator_Engine.csproj">
       <Project>{a08c22b9-022a-4031-b32b-467d62fa08c5}</Project>
       <Name>RAPIDGenerator_Engine</Name>

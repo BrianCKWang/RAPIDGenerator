@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RAPIDGenerator.RAPID_Data_Types;
-using RAPIDGenerator.Factory_Data_Types.Product;
+using ABB_RAPID_Library.RAPID_Data_Types;
+using ABI.Robotics.RAPIDGenerator_Engine.Interface;
+using ABI.Robotics.RAPIDGenerator_Engine.Factory_Data_Types.Product;
+using ABI.Robotics.RAPIDGenerator_Engine.RAPID_Data_Types;
 
-namespace RAPIDGenerator.Path_Patterns.J190022
+namespace ABI.Robotics.RAPIDGenerator_Engine.Path_Patterns.J190022
 {
     
-    class r3295_r7382_r3191 : IRAPIDPath
+    class r3295_r7382_r3191 : IRAPIDReader
     {
         public class r3295_r7382_r3191_Settings
         {
@@ -40,7 +42,8 @@ namespace RAPIDGenerator.Path_Patterns.J190022
 
         private r3295_r7382_r3191_Settings settings;
         private BreadStick BreadStick;
-        private List<RobTarget> outputPath;
+        private List<RAPIDCode> RAPIDCode;
+        private List<RobTarget> RobTargetsList;
 
         public r3295_r7382_r3191(r3295_r7382_r3191_Settings settings)
         {
@@ -52,13 +55,15 @@ namespace RAPIDGenerator.Path_Patterns.J190022
             {
                 this.settings = new r3295_r7382_r3191_Settings();
             }
-            
-            outputPath = GeneratePath();
+
+            RAPIDCode = GeneratePath();
         }
 
-        private List<RobTarget> GeneratePath()
+        private List<RAPIDCode> GeneratePath()
         {
-            List<RobTarget> tempList = new List<RobTarget>();
+            List<RAPIDCode> tempList = new List<RAPIDCode>();
+
+            #region RobTarget Example
             /*
                 CONST robtarget Target_100:=[[678,1109,32],[-0.000000015,0.923879533,-0.382683432,0.000000035],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,0]];
 	            CONST robtarget Target_110:=[[628,1109,32],[-0.000000015,0.923879533,-0.382683432,0.000000035],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,0]];
@@ -121,18 +126,18 @@ namespace RAPIDGenerator.Path_Patterns.J190022
 	            CONST robtarget Target_350_2:=[[213, 953,32],[-0.000000015,0.923879533,-0.382683432,0.000000035],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,0]];
 	            CONST robtarget Target_360_2:=[[188, 951,32],[-0.000000015,0.923879533,-0.382683432,0.000000035],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,0]];
              */
+            #endregion
 
-
-
-            tempList.Add(new RobTarget("Target", new Pos(1, 0, 0), new Orient(1, 0, 0, 0)));
-
+            //tempList.Add(new RobTarget("Target", new Pos(1, 0, 0), new Orient(1, 0, 0, 0)));
 
             return tempList;
         }
 
-        public List<RobTarget> GetPath()
+
+
+        public List<RAPIDCode> ToStringList()
         {
-            return outputPath;
+            return RAPIDCode;
         }
     }
 }

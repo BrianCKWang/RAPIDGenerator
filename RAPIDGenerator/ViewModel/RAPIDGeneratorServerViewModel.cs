@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RAPIDGenerator.ViewModel
+namespace ABI.Robotics.RAPIDGenerator_Engine.ViewModel
 {
     public class RAPIDGeneratorServerViewModel
     {

@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using RAPIDGenerator.ViewModel;
+using ABI.Robotics.RAPIDGenerator_Engine.ViewModel;
 
 namespace RAPIDGeneratorUI
 {

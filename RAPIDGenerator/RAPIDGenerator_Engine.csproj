@@ -45,30 +45,24 @@
     <Compile Include="Factory Data Types\Container\Pan.cs" />
     <Compile Include="Factory Data Types\Product\Product Base\Product.cs" />
     <Compile Include="Factory Data Types\Product\BreadStick.cs" />
-    <Compile Include="Interface\IRAPIDInstruction.cs" />
-    <Compile Include="Interface\IRAPIDPath.cs" />
-    <Compile Include="RAPID Data Types\Inpos.cs" />
-    <Compile Include="RAPID Data Types\Speeddata.cs" />
-    <Compile Include="RAPID Data Types\Speeddata_Predefined.cs" />
-    <Compile Include="RAPID Instructions\Instruction Base\InstructionBase.cs" />
-    <Compile Include="RAPID Instructions\Move Instructions\Move Base\MoveBase.cs" />
-    <Compile Include="RAPID Instructions\Move Instructions\MoveJ.cs" />
-    <Compile Include="RAPID Instructions\Move Instructions\MoveC.cs" />
-    <Compile Include="RAPID Instructions\Move Instructions\MoveL.cs" />
+    <Compile Include="Interface\IRAPIDReader.cs" />
+    <Compile Include="Data Types\RAPIDCode.cs" />
+    <Compile Include="Path Patterns\GenerationTemplate\SinglePath.cs" />
     <Compile Include="Path Patterns\J190022\r3295_r7382_r3191.cs" />
-    <Compile Include="RAPID Data Types\Confdata.cs" />
-    <Compile Include="RAPID Data Types\Extjoint.cs" />
-    <Compile Include="RAPID Data Types\Orient.cs" />
-    <Compile Include="RAPID Data Types\Pos.cs" />
-    <Compile Include="RAPID Data Types\Stoppointdata.cs" />
     <Compile Include="RAPIDGeneratorServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RAPIDWriter.cs" />
-    <Compile Include="RAPID Data Types\RobTarget.cs" />
+    <Compile Include="Writer\RAPIDWriter.cs" />
     <Compile Include="ViewModel\RAPIDGeneratorServerViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Abstract Class\" />
     <Folder Include="Path Patterns\General\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ABB_RAPID_Library\ABB_RAPID_Library.csproj">
+      <Project>{141b66a9-e3c7-4fb2-8027-607fb682f5dc}</Project>
+      <Name>ABB_RAPID_Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

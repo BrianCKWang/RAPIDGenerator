@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator_UnitTest", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAPIDGenerator_UI", "RAPIDGeneratorUI\RAPIDGenerator_UI.csproj", "{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABB_RAPID_Library", "ABB_RAPID_Library\ABB_RAPID_Library.csproj", "{141B66A9-E3C7-4FB2-8027-607FB682F5DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2890EC4-FF3A-4D4C-961D-32C69BB0DA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141B66A9-E3C7-4FB2-8027-607FB682F5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141B66A9-E3C7-4FB2-8027-607FB682F5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141B66A9-E3C7-4FB2-8027-607FB682F5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141B66A9-E3C7-4FB2-8027-607FB682F5DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

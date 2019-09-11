@@ -4,10 +4,10 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RAPIDGenerator.Path_Patterns;
+using ABI.Robotics.RAPIDGenerator_Engine.Writer;
  
 
-namespace RAPIDGenerator
+namespace ABI.Robotics.RAPIDGenerator_Engine
 {
     public class RAPIDGeneratorServer : INotifyPropertyChanged
     {
@@ -27,7 +27,7 @@ namespace RAPIDGenerator
             settings1.Offset_Y = 0;
             settings1.ApproachHeight = 30;
             r3295_3X7_Setting1  = new Path_Patterns.J190022.r3295_r7382_r3191(settings1);
-            RAPIDWriter = new RAPIDWriter(@"E:\Brian\ABI\RAPIDGenerator", "RAPIDFile.mod", r3295_3X7_Setting1.GetPath());
+            //RAPIDWriter = new RAPIDWriter(@"E:\Brian\ABI\RAPIDGenerator", "RAPIDFile.mod", r3295_3X7_Setting1.GetPath());
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

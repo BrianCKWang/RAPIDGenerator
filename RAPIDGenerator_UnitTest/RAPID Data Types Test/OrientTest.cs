@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RAPIDGenerator.RAPID_Data_Types;
+using ABB_RAPID_Library.RAPID_Data_Types;
 
 namespace RAPIDGenerator_UnitTest.RAPID_Data_Types_Test
 {

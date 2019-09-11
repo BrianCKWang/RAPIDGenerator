@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RAPIDGenerator.Factory_Data_Types.Container
+namespace ABI.Robotics.RAPIDGenerator_Engine.Factory_Data_Types.Container
 {
     class Pan : Container
     {
