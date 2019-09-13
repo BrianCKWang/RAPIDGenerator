@@ -54,5 +54,10 @@ namespace ABB_RAPID_Library.RAPID_Data_Types
             confdata = new Confdata(cf1, cf4, cf6, cfx);
             extjoint = new Extjoint(9E+09, 9E+09, 9E+09, 9E+09, 0);
         }
+
+        public string GetRobTargetString()
+        {
+            return "CONST robtarget " + Name + ":=[[" + pos.x.ToString() + "," + pos.y.ToString() + "," + pos.z.ToString() + "],[" + orient.q1.ToString() + "," + orient.q2.ToString() + "," + orient.q3.ToString() + "," + orient.q4.ToString() + "],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,0]];";
+        }
     }
 }

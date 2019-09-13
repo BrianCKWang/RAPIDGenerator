@@ -48,7 +48,8 @@
     <Compile Include="Interface\IRAPIDReader.cs" />
     <Compile Include="Data Types\RAPIDCode.cs" />
     <Compile Include="Path Patterns\GenerationTypes\SinglePath.cs" />
-    <Compile Include="Path Patterns\J190022\r3295_r7382_r3191.cs" />
+    <Compile Include="Path Patterns\J190022\J190022_BreadStick.cs" />
+    <Compile Include="Path Patterns\J190022\J190022_SKU.cs" />
     <Compile Include="RAPIDGeneratorServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Writer\RAPIDWriter.cs" />

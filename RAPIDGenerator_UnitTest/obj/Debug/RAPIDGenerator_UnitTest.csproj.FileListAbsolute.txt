@@ -14,3 +14,5 @@ C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.csproj.CopyComplete
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.dll
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\obj\Debug\RAPIDGenerator_UnitTest.pdb
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\ABB_RAPID_Library.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator_UnitTest\bin\Debug\ABB_RAPID_Library.pdb

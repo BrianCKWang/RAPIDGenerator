@@ -4,3 +4,6 @@ C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGen
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator.dll
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator.pdb
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator_Engine.csprojAssemblyReference.cache
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\bin\Debug\ABB_RAPID_Library.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\bin\Debug\ABB_RAPID_Library.pdb
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGenerator\obj\Debug\RAPIDGenerator_Engine.csproj.CopyComplete

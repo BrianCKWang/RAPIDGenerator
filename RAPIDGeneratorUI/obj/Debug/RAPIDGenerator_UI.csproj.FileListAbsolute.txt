@@ -16,3 +16,5 @@ C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGeneratorUI\obj\Debug\RAPIDG
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGeneratorUI\obj\Debug\RAPIDGenerator_UI.csproj.CopyComplete
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGeneratorUI\obj\Debug\RAPIDGeneratorUI.exe
 C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGeneratorUI\obj\Debug\RAPIDGeneratorUI.pdb
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGeneratorUI\bin\Debug\ABB_RAPID_Library.dll
+C:\Users\BrianWang\source\repos\RAPIDGenerator\RAPIDGeneratorUI\bin\Debug\ABB_RAPID_Library.pdb
