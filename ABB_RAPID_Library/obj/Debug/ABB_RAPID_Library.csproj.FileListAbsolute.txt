@@ -4,3 +4,9 @@ C:\Users\BrianWang\source\repos\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_R
 C:\Users\BrianWang\source\repos\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_RAPID_Library.csproj.CoreCompileInputs.cache
 C:\Users\BrianWang\source\repos\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_RAPID_Library.dll
 C:\Users\BrianWang\source\repos\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_RAPID_Library.pdb
+C:\Users\kai23\Projects\ABI\Robotics\RAPIDGenerator\ABB_RAPID_Library\bin\Debug\ABB_RAPID_Library.dll
+C:\Users\kai23\Projects\ABI\Robotics\RAPIDGenerator\ABB_RAPID_Library\bin\Debug\ABB_RAPID_Library.pdb
+C:\Users\kai23\Projects\ABI\Robotics\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_RAPID_Library.csprojAssemblyReference.cache
+C:\Users\kai23\Projects\ABI\Robotics\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_RAPID_Library.csproj.CoreCompileInputs.cache
+C:\Users\kai23\Projects\ABI\Robotics\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_RAPID_Library.dll
+C:\Users\kai23\Projects\ABI\Robotics\RAPIDGenerator\ABB_RAPID_Library\obj\Debug\ABB_RAPID_Library.pdb

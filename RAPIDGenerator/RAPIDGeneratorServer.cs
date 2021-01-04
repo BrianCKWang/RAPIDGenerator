@@ -28,7 +28,7 @@ namespace ABI.Robotics.RAPIDGenerator_Engine
             settings1.ApproachHeight = 30;
             settings1.FirstRowLowToHigh = true;
             r3295_3X7_Setting1  = new J190022_SKU(settings1);
-            RAPIDWriter = new RAPIDWriter(@"E:\Brian\ABI\RAPIDGenerator", "RAPIDFile.mod", r3295_3X7_Setting1.ToStringList());
+            RAPIDWriter = new RAPIDWriter(@"C:\Users\kai23\Projects\ABI\Robotics\RAPIDGenerator\Files", "RAPIDFile.mod", r3295_3X7_Setting1.ToStringList());
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
